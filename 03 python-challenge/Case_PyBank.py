@@ -35,7 +35,7 @@ print(f'Average change: ${revenue_avg:,.2f}')
 print(f'Greatest increase in profits: {period[revenue.index(max(revenue))+1]} ${greatest_increase:,}')
 print(f'Greatest increase in profits: {period[revenue.index(min(revenue))+1]} ${greatest_decrease:,}')
     
-file= open('Financial_Analysis.txt','w')
+file= open('Case_PyBank.txt','w')
 file.write('\nFinancial Analysis')
 file.write('\n______________________________________________________________')
 file.write(f'\n\nTotal Months: {total_months}')

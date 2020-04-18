@@ -47,7 +47,7 @@ print('________________________________')
 print(f'\nWinner: {winner}')
 print('________________________________')
 
-file= open('Poll_Analysis.txt','w')
+file= open('Case_PyPoll.txt','w')
 file.write('\nElection Results')
 file.write('\n________________________________')
 for x in range(len(candidates)):
